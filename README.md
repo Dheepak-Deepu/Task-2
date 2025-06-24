@@ -57,5 +57,5 @@ cyber-security-task-2/
 ├── README.md                                      # This report
 ├── Sample Email                                   # Original Email
 ├── Sample Email - Original Message.txt            # Raw sample email content
-└── Report - MX Toolbox                            # (Optional) MXToolbox output screenshot
+└── Report - MX Toolbox                            # MXToolbox output screenshot
 ```
