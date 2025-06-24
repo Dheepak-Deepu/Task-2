@@ -18,39 +18,42 @@
    - Pasted the copied header into MXToolbox's header analyzer.
    - Reviewed results related to SPF, DKIM, IP, and server paths.
 
+# Key Observations
 
+| Attribute         | Observation                                                                 |
+|------------------|------------------------------------------------------------------------------|
+| **Sender Email** | marketing@smt.plusoasis.com (suspicious and non-official)                   |
+| **Return Path**  | Different from domain in "From" address                                      |
+| **SPF Check**    | Failed / Misaligned (issues found in SPF alignment)                         |
+| **Suspicious Link** | Not directly mentioned but inferred from phishing context                   |
+| **Urgent Language** | “Your card is waiting. Complete your application now.”                     |
+| **Grammar Issues** | Use of generic language like "Dear Sir/Mam", lacks personalization          |
 
 # Key Observations
 
 | Attribute         | Observation                                                                 |
 |------------------|------------------------------------------------------------------------------|
-| **Sender Email** | support@secure-paypal.com (suspicious domain resembling PayPal)              |
-| **Return Path**  | Did not match trusted sender domain (spoofed)                               |
-| **SPF Check**    | Failed — domain not authorized to send emails                                |
-| **Suspicious Link** | http://paypal.verify-secureaccount.com — does not belong to PayPal         |
-| **Urgent Language** | “Your account will be suspended unless you act immediately.”               |
-| **Grammar Issues** | Minor errors and lack of personalization (e.g., “Dear user”)                |
-
-
+| **Sender Email** | marketing@smt.plusoasis.com (suspicious and non-official)                   |
+| **Return Path**  | Different from domain in "From" address                                      |
+| **SPF Check**    | Failed / Misaligned (issues found in SPF alignment)                         |
+| **Suspicious Link** | Not directly mentioned but inferred from phishing context                   |
+| **Urgent Language** | “Your card is waiting. Complete your application now.”                     |
+| **Grammar Issues** | Use of generic language like "Dear Sir/Mam", lacks personalization          |
 
 # Phishing Indicators Identified
 
-- ✅ Spoofed sender domain
-- ✅ Failed SPF authentication
-- ✅ Suspicious URL disguised as a PayPal link
-- ✅ Threatening tone to induce urgency
-- ✅ Generic message with no personal identifiers
-
-
+- ✅ Spoofed or untrusted sender domain  
+- ✅ SPF misalignment and issues in email authentication  
+- ✅ Misleading or urgency-based subject line  
+- ✅ Absence of personalization  
+- ✅ Suspicious overall context and generic greeting
 
 # Conclusion
 
-The email is clearly a **phishing attempt** designed to trick users into revealing login credentials.  
-By impersonating PayPal and using fake urgency, it attempts to bypass user suspicion.
+The email is a **phishing attempt** trying to mislead users into clicking potentially harmful links or entering personal information.
 
 
-
-# 📁 Repository Contents
+# Repository Contents
 
 ```
 cyber-security-task-2/
