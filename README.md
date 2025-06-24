@@ -58,4 +58,5 @@ cyber-security-task-2/
 ├── Sample Email                                   # Original Email
 ├── Sample Email - Original Message.txt            # Raw sample email content
 └── Report - MX Toolbox                            # MXToolbox output screenshot
+└── DKIM Test Report                               # Record which stores the sender's public key
 ```
