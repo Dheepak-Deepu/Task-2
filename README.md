@@ -18,16 +18,6 @@
    - Pasted the copied header into MXToolbox's header analyzer.
    - Reviewed results related to SPF, DKIM, IP, and server paths.
 
-# Key Observations
-
-| Attribute         | Observation                                                                 |
-|------------------|------------------------------------------------------------------------------|
-| **Sender Email** | marketing@smt.plusoasis.com (suspicious and non-official)                   |
-| **Return Path**  | Different from domain in "From" address                                      |
-| **SPF Check**    | Failed / Misaligned (issues found in SPF alignment)                         |
-| **Suspicious Link** | Not directly mentioned but inferred from phishing context                   |
-| **Urgent Language** | “Your card is waiting. Complete your application now.”                     |
-| **Grammar Issues** | Use of generic language like "Dear Sir/Mam", lacks personalization          |
 
 # Key Observations
 
